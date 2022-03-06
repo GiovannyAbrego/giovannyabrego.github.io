@@ -2,6 +2,7 @@
     <head>
         <title>Portafolio</title>
         <link rel="stylesheet" href="src\css\style.css"/>
+        <script src="https://kit.fontawesome.com/8d48608cea.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -11,9 +12,8 @@
                     <h2>GA</h2>
                 </div>
                 <ul class="menu">
-                    <li><a class="active" href="#">Inicio</a></li>
-                    <li><a href="#">Sobre mi</a></li>
-                    <li><a href="#">Proyectos</a></li>
+                    <li><a class="active" href="#main">Inicio</a></li>
+                    <li><a href="#about">Proyectos</a></li>
                 </ul>
             </nav>
             </header>
@@ -21,6 +21,11 @@
                 <div class="info-content">
                     <h1>Giovanny Abrego</h1>
                     <p>Estudiante de 5to año de ingenieria en computación especializado en desarrollo de software.</p>
+                    <ul class="socials">
+                        <li><a href="mailto:gmah.tloz@gmail.com"target="_blank"><i class="fa-solid fa-square-envelope"></i></a></li>
+                        <li><a href="https://twitter.com/GiovannyAbrego" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/GiovannyAbrego" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
                     <a download="src\pdf\curriculum.pdf" href="">
                         <button class="download-cv"> 
                             Descargar CV
@@ -30,15 +35,40 @@
                 <img src="src/img/profile.png" alt="Foto de Giovanny Abrego"/>
             </main>
         </div>
-        
-        <div class="about">
-            <img src="src/img/logoudb.png" alt="Logo UDB"/>
-            <div class="about-info">
-                <h2>Acerca de mí</h2>
+        <div class="portfolio">
+            <div class="portfolio-header">
+                <h2>Mis Proyectos</h2>
                 <div class="divider"></div>
-                <p>Realizo mis estudios en la Universidad Don Bosco donde estoy en mi ultimo año de ingenieria, y en años anteriores
-                    complete el pensum de la carrera Técnico en ingenieria de la computación.</p>
-                <button class="download-cv">Leer mas...</button>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fa-brands fa-react"></i>
+                        
+                    </div>
+                    <div class="card-title">
+                        <h2>Citas clinica dental </h2>
+                        <p>Aplicación móvil basada en react native para agendar citas de usuarios a un medico de acuerdo a la disponiblidad de la clinica dental</p>   
+                    </div>
+                    <div class="card-link">
+                        <a href="https://github.com/AnthonyVas/CatedraDPS" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <i class="fa-brands fa-android"></i>
+                    </div>
+                    <div class="card-title">
+                        <h2>Tienda de electronicos</h2>
+                        <p>Aplicación móvil basada en java para android enfocada en ofrecer el servicio de ventas en linea de productos electronicos</p>
+                    </div>
+                    <div class="card-link">
+                        <a href="https://github.com/GiovannyAbrego/CatedraDSM" target="_blank">
+                            
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
